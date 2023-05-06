@@ -1,5 +1,6 @@
 body{
     font-family: 'Vina Sans', cursive;
+    margin: 0px;
 }
 
 h1{
@@ -10,9 +11,15 @@ h1{
     color: darkblue;
 }
 
-.section{
+section{
     display: flex;
     padding-left: 10px;
+    
+}
+
+.sectionone{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 
 .half-with{
@@ -20,11 +27,21 @@ h1{
 }
 
 .half-with img{
-    width: 80%;
+    width: 70%;
+    margin-left: 50px;
+    margin-top: 15px;
 }
 .hare{
-    background-color: rgb(6, 204, 122);
+    background-color: orange;
     padding: 5px;
     border-radius: 10px;
     text-decoration: none;
+    color: aliceblue;
+    font-weight: 400;
+}
+.big-Dream{
+    background-color: azure;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
